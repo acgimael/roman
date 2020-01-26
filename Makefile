@@ -16,4 +16,4 @@ clean:
 	-rm -f $(SRC_DIR)/*.o $(BIN_DIR)/*
 
 test: all
-	{ printf '%d\n' {1..3999}; } | $(BIN_DIR)/to_roman | $(BIN_DIR)/from_roman | awk 'BEGIN{error=0}NR!=$$0{print "ERROR: value should be " NR " but is " $$0;error=1}END{exit error}'
+	@{ printf '%d\n' {1..3999}; } | $(BIN_DIR)/to_roman | $(BIN_DIR)/from_roman | awk 'BEGIN{error=0}NR!=$$0{print "ERROR: value should be " NR " but is " $$0;error=1}END{exit error}'

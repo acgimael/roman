@@ -4,11 +4,14 @@ A pair of programs that convert decimal to roman and roman to decimal.
 
 ## Build
 
-Simply run `make` to build the programs. You may test the programs by running `make test`.
+Simply run `make` to build the programs. You may test the programs by running
+`make test`. If the test succeeds nothing will be printed to the terminal and
+the exit coud will be 0.
 
 ## Run
 
-To convert numbers to roman, run `bin/to_roman` from the top level directory of the project.
+To convert numbers to roman, run `bin/to_roman` from the top level directory of
+the project.
 
 The program will then proceed to read input from the terminal. You can quit by
 hitting `Ctrl-D` or `Ctrl-C`.
