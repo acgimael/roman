@@ -6,7 +6,7 @@ A pair of programs that convert decimal to roman and roman to decimal.
 
 Simply run `make` to build the programs. You may test the programs by running
 `make test`. If the test succeeds nothing will be printed to the terminal and
-the exit coud will be 0.
+the exit code will be 0.
 
 ## Run
 
